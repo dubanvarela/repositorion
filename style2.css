@@ -64,9 +64,13 @@ div > p{
 	transition: 1s padding-left;
 }
 div{
-background-color: brown;
-
+background-color: orange;
+border-radius: 10%;
+transition: 1s border-radius;
 }
 div >p:hover{
 padding-left: 20px;
+}
+div:hover{
+border-radius: 50%;
 }
