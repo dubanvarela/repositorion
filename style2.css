@@ -58,3 +58,15 @@ border-radius: 0 0 80% 80%;
 .btn1:hover::before{
 	height: 0%;
 }
+div > p{
+	color: white;
+	padding-left: 10px;
+	transition: 1s padding-left;
+}
+div{
+background-color: brown;
+
+}
+div >p:hover{
+padding-left: 20px;
+}
